@@ -1,3 +1,8 @@
+import posthog from 'posthog-js'
+
+posthog.init('phc_qv57pX3V8zDrTAXagy989G9pmni5NyXmKFyvTakWbUGn', {
+  api_host: 'https://us.i.posthog.com',
+})
 import { HeadContent, Scripts, createRootRoute } from '@tanstack/react-router'
 
 
