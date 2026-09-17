@@ -6,7 +6,7 @@ model and real-world range selection, route calculation with charging stops, liv
 discovery across multiple networks, and a preview of upcoming mobile app and roadmap features.
 
 The site uses a dark, neon-blue, glassmorphism aesthetic inspired by premium EV brands, with
-smooth animations and a fully responsive layout.
+smooth animations and a fully responsive layout. 
 
 ## Tech Stack
 
