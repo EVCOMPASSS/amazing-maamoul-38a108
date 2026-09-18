@@ -1,0 +1,10 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "ev-compass",
+  "compatibility_date": "2026-09-18",
+  "main": "./dist/server/index.mjs",
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "./dist/client"
+  }
+}
