@@ -3,9 +3,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite dev --port 3000",
-    "build": "vite build",
-    "preview": "vite preview"
+  "dev": "vite dev",
+  "build": "vite build && tsc --noEmit",
+  "preview": "vite preview",
+  "deploy": "npm run build && wrangler deploy",
+  "cf-typegen": "wrangler types"
   },
   "dependencies": {
     "@tailwindcss/vite": "4.2.2",
